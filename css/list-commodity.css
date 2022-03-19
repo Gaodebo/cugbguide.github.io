@@ -1,0 +1,49 @@
+.com-list-nav {
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(89, 209, 129);
+}
+
+.com-list-nav h1 {
+    font-size: 25px;
+    color: rgb(4, 167, 58);
+    border-bottom: 1px solid rgb(89, 209, 129);
+    padding-left: 10px;
+}
+
+.com-list-nav li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 8px;
+    background-color: rgb(180, 248, 172);
+}
+
+.com-list-nav li a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.com-list-nav li a:hover {
+    background-color: rgb(87, 240, 87);
+}
+
+.com-list-show {
+    overflow: hidden;
+}
+
+.commodity-one {
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 240px;
+    height: 300px;
+    background-color: rgb(233, 229, 229);
+}

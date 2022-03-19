@@ -1,0 +1,53 @@
+.school-nav {
+    margin-top: 10px;
+
+}
+
+.school-nav h1 {
+
+    font-size: 25px;
+    color: rgb(4, 167, 58);
+    border-bottom: 1px solid rgb(89, 209, 129);
+}
+
+.school-nav li {
+    float: left;
+    height: 100px;
+    width: 190px;
+    margin: 6px 5px;
+    background-color: rgb(183, 230, 171);
+    border-radius: 15px;
+    font-size: 20px;
+    line-height: 92px;
+    text-align: center;
+}
+
+.school-nav li a {
+    position: relative;
+    display: block;
+    color: rgb(85, 83, 83);
+    height: 100px;
+    width: 190px;
+}
+
+.school-nav li a::before {
+    position: absolute;
+
+    width: 90px;
+    height: 100px;
+    border-radius: 15px;
+    padding-left: 100px;
+    content: "\ea13";
+    font-family: "icomoon";
+    color: green;
+    display: none;
+    /* text-align: center; */
+
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+.school-nav li a:hover::before {
+    display: block;
+
+}

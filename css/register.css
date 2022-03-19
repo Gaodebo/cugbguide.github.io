@@ -1,0 +1,82 @@
+.register {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(229, 247, 226);
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.logo {
+    height: 80px;
+
+    background: url(../imgs/cugbguide.png) no-repeat center;
+    background-size: contain;
+}
+
+.logo a {
+    display: block;
+    margin-left: 300px;
+    height: 80px;
+    width: 200px;
+    /* background-color: red; */
+}
+
+.reg-form {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(176, 235, 165);
+}
+
+
+
+.reg-form label {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.reg-form input {
+    width: 210px;
+    height: 30px;
+    border-radius: 8px;
+
+}
+
+.reg-form input[type="submit"] {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 90px;
+}
+
+
+.reg-form input[type="checkbox"] {
+
+    width: 15px;
+
+}
+
+.reg-form .agree {
+
+    height: 20px;
+    font-size: 14px;
+    padding-left: 100px;
+    /* line-height: 20px; */
+}
+
+.reg-form .agree input {
+    vertical-align: middle;
+}
+
+.reg-form .agree a {
+    color: rgb(243, 154, 154);
+}

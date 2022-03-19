@@ -1,0 +1,116 @@
+.trade-nav {
+    height: 45px;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(21, 156, 8);
+
+}
+
+.trade-nav .w .dropdown {
+
+    width: 200px;
+    background-color: rgb(141, 243, 141);
+}
+
+
+
+.trade-nav .w .dropdown .dt {
+    height: 45px;
+
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+
+.trade-nav .w .dropdown .dd {
+    height: 280px;
+}
+
+.dropdown .dd li {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+
+    padding-left: 10px;
+
+
+}
+
+.dropdown .dd li a {
+    display: block;
+    height: 40px;
+    color: rgb(63, 68, 63);
+}
+
+.dropdown .dd li:hover {
+    background-color: rgb(215, 245, 220);
+}
+
+.dropdown .dd li a::after {
+    position: absolute;
+    font-family: "icomoon";
+    content: "\ea42";
+    right: 15px;
+
+}
+
+
+
+.commodity-show {
+    float: right;
+    width: 1000px;
+    height: 280px;
+    background-color: rgb(138, 231, 138);
+}
+
+.thefloor {
+    height: 350px;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+
+.thefloor h1 {
+    position: relative;
+
+    border-bottom: 1px solid rgb(89, 209, 129);
+    padding-left: 10px;
+}
+
+.thefloor h1 .name {
+    font-size: 25px;
+    color: rgb(4, 167, 58);
+
+}
+
+.thefloor h1 .more {
+    position: absolute;
+
+    right: 5px;
+    bottom: 3px;
+
+    height: 20px;
+    line-height: 20px;
+    padding-left: 6px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(196, 195, 195);
+    font-size: 13px;
+    color: rgb(100, 99, 99)
+}
+
+.thefloor h1 .more::after {
+    position: absolute;
+    font-family: "icomoon";
+    content: "\ea42";
+}
+
+.thefloor .commodity-one {
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 240px;
+    height: 300px;
+    background-color: rgb(233, 229, 229);
+}
